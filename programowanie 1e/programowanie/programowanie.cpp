@@ -43,5 +43,5 @@ int main()
     std::cout << "Predkosc to km\\h";
 
     std::cout << "Tabulator\ttabulator";
-    std::cout << 125.5 << " to jest kasztan  " << 16 << "\n";
+    std::cout << 125.5 << " to jest kasztan  " << 17 << "\n";
 }
