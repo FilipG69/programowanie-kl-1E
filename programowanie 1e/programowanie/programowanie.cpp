@@ -44,4 +44,17 @@ int main()
 
     std::cout << "Tabulator\ttabulator";
     std::cout << 125.5 << " to jest kasztan  " << 17 << "\n";
+
+
+
+
+
+
+
+    std::cout << "podaj lizbe\n";
+    int Numberfromuser;h
+    std::cin >> Numberfromuser;
+
+
+
 }
