@@ -1,20 +1,38 @@
-// TasWith.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
 
 #include <iostream>
+/*napisz funkcje ktora pobierze 2 liczby oraz wykona podstawowoe operacje artmetyczne*/
+
+void task1()
+{
+	int firstNumber, secondNumber, thirdNumber;
+
+	std::cout << "podaj pierwsza liczbe \n";
+	std::cin >> firstNumber;
+
+	std::cout << "podaj druga liczbe (nie podawaj 0) \n";
+	std::cin >> secondNumber;
+
+	std::cout << "podaj trzecia liczbe (nie podawaj 0)\n";
+	std::cin >> thirdNumber;
+
+	int sum, difference, product, quotient, rest;
+	sum = firstNumber + secondNumber + thirdNumber;
+	difference = firstNumber - secondNumber - thirdNumber;
+	product = firstNumber * secondNumber * thirdNumber;
+	quotient = firstNumber / secondNumber / thirdNumber;
+	rest = firstNumber % secondNumber % thirdNumber;
+
+	std::cout << "suma: " << sum << "\n";
+	std::cout << "roznica: " << difference << "\n";
+	std::cout << "iloczyn: " << product << "\n";
+	std::cout << "iloraz: " << quotient << "\n";
+	std::cout << "reszta " << rest << "\n";
+
+}
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	task1();
+
+
 }
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
