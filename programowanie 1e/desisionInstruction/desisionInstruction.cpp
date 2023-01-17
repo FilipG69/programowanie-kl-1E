@@ -13,16 +13,7 @@ void task1()
 
 	std::cout << "Podaj pierwsza liczbe:\n";
 	std::cin >> firstNumber;
-
-	std::cout << "Podaj druga liczbe (nie podawaj zera):\n";
-	std::cin >> secondNumber;
-
-	//iloraz
-	int quotient = 0;
-
-	/*if (secondNumber != 0)
-		quotient = firstNumber / secondNumber;
-	if (secondNumber != 0)
+	                        
 		std::cout << "Iloraz: " << quotient << "\n";
 	if (secondNumber == 0)
 		std::cout << "Dzielenie przez zero!!!!\n";*/
@@ -119,15 +110,56 @@ void task7()
 		
 	
 }
+
+void task10()
+{
+	int dayNumber;
+	std::cout << "podaj liczbe\n";
+	std::cin >> dayNumber;
+	switch (dayNumber)
+	{
+	
+	case 1:
+		std::cout << "poniedzialek\n";
+		break;
+	case 2:
+		std::cout << "wtorek\n";
+		break;
+	case 3:
+		std::cout << "sroda\n";
+		break;
+	case 4:
+		std::cout << "czwartek\n";
+		break;
+	case 5:
+		std::cout << "piantek\n";
+		break;
+	case 6:
+		std::cout << "sobota\n";
+		break;
+	case 0:
+	case 7:
+		std::cout << "niedziela\n";
+		break;
+	default:
+	}
+
+
+
+}
+void task11()
+{
+	int temperature;
+		std::cout << "podaj temperature\n"
+
+
+
+
+}
+
 int main()
 {
-	//task1();
-	//task2();
-	//task3();
-	//task5();
-	//task4();
-	//task6();
-	task7();
+	task10();
 }
 
 
